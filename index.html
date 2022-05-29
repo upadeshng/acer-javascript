@@ -1,0 +1,113 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Demo coding</title>
+    </head>
+    <body>
+        <hr class="divider" />
+        <div class="bold">SCENARIO-1:</div>
+        Input-A:
+        <input type="text"
+               name="sc1-input"
+               id="sc1-input"
+               class="mb-10"
+               onkeyup="handleChangeInputScenario1(this.value)"
+        />
+        <br />
+
+        <table>
+            <tr>
+                <th>Sodium</th>
+                <th>Calcium</th>
+            </tr>
+            <tr>
+                <td class="sc1-data">1</td>
+                <td class="sc1-data-x">A</td>
+            </tr>
+            <tr>
+                <td class="sc1-data">2</td>
+                <td class="sc1-data-x">A</td>
+            </tr>
+            <tr>
+                <td class="sc1-data">3</td>
+                <td class="sc1-data-x">A</td>
+            </tr>
+        </table>
+        <div id="sc1-output" class="mt-10 mb-20"></div>
+
+        <hr class="divider" />
+        <div class="bold">SCENARIO-2:</div>
+        Input-A:
+        <input type="text"
+               name="sc2-input-a"
+               id="sc2-input-a"
+               class="mb-10"
+               onkeyup="handleChangeInputScenario2()"
+        />
+        <br />
+        Input-B:
+        <input type="text"
+               name="sc2-input-b"
+               id="sc2-input-b"
+               class="mb-10"
+               onkeyup="handleChangeInputScenario2()"
+        />
+        <br />
+        Input-C:
+        <input type="text"
+               name="sc2-input-c"
+               id="sc2-input-c"
+               class="mb-10"
+               onkeyup="handleChangeInputScenario2()"
+        />
+        <br />
+        Input-D:
+        <input type="text"
+               name="sc2-input-d"
+               id="sc2-input-d"
+               class="mb-10"
+               onkeyup="handleChangeInputScenario2()"
+        />
+        <br />
+
+        <table>
+            <tr>
+                <th>Sodium</th>
+                <th>Calcium</th>
+                <th>Fluoride</th>
+            </tr>
+            <tr>
+                <td class="sc2-data">1</td>
+                <td class="sc2-data-x">B</td>
+                <td class="sc2-data-y">C</td>
+            </tr>
+            <tr>
+                <td class="sc2-data">2</td>
+                <td class="sc2-data-x">B</td>
+                <td class="sc2-data-y">C</td>
+            </tr>
+            <tr>
+                <td class="sc2-data">3</td>
+                <td class="sc2-data-x">B</td>
+                <td class="sc2-data-y">C</td>
+            </tr>
+            <tr>
+                <td class="sc2-data">A</td>
+                <td class="sc2-data-x">1</td>
+                <td class="sc2-data-y">D</td>
+            </tr>
+            <tr>
+                <td class="sc2-data">A</td>
+                <td class="sc2-data-x">2</td>
+                <td class="sc2-data-y">D</td>
+            </tr>
+            <tr>
+                <td class="sc2-data">A</td>
+                <td class="sc2-data-x">3</td>
+                <td class="sc2-data-y">D</td>
+            </tr>
+        </table>
+        <div id="sc2-output" class="mt-10"></div>
+    </body>
+</html>

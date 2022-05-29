@@ -1,0 +1,31 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+input {
+    padding: 8px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.divider {
+    width: 50%;
+    margin: 10px 0;
+    border: 1px solid #e6e6e6;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+.bold {
+    font-weight: bold;
+}
